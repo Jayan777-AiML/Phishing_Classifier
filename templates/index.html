@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phishing Classifier</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<div class="frame">
+
+    <div class="center">
+
+        <div class="title">
+            <h1>Welcome to Phishing Classifier</h1>
+        </div>
+
+        <button onclick="window.location.href='/predict'" class="btn">
+            Go to Prediction
+        </button>
+
+        <button onclick="window.location.href='/train'" class="btn">
+            Go to Train
+        </button>
+
+    </div>
+
+</div>
+
+</body>
+</html>
