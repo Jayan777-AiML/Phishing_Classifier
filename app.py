@@ -58,22 +58,22 @@ def predict():
         raise CustomException(e, sys)
 
     
-# if __name__=="__main__":
-#     host = "127.0.0.1"
-#     # host = "0.0.0.0"
-#     port = 5010
-#     # print(f"🚀 App is running on: http://{host}:{port}")
-#     print(f"🚀 App is running on: http://localhost:{port}")
-#     app.run(host=host, port=port, debug=True) 
-
-if __name__ == "__main__":
-    host = "0.0.0.0"
+if __name__=="__main__":
+    host = "127.0.0.1"
+    # host = "0.0.0.0"
     port = 5010
-
+    # print(f"🚀 App is running on: http://{host}:{port}")
     print(f"🚀 App is running on: http://localhost:{port}")
+    app.run(host=host, port=port, debug=True) 
 
-    app.run(
-        host=host,
-        port=port,
-        debug=False
-    )
+# if __name__ == "__main__":
+#     host = "0.0.0.0"
+#     port = 5010
+
+#     print(f"🚀 App is running on: http://localhost:{port}")
+
+#     app.run(
+#         host=host,
+#         port=port,
+#         debug=False
+#     )
